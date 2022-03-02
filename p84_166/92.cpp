@@ -18,11 +18,11 @@ int & test02()
 
 int main()
 {
-    int b = test01();
+    int &b = test01();
     cout << b << endl;
     cout << b << endl;
 
-    int c = test02();
+    int &c = test02();
     cout << c <<endl;
     cout << c <<endl;
     cout << c <<endl;
