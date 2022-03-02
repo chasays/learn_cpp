@@ -21,12 +21,13 @@ int main()
     int &b = test01();
     cout << b << endl;
     cout << b << endl;
+    cout << "---" << endl;
 
     int &c = test02();
     cout << c <<endl;
     cout << c <<endl;
+
+    test02() = 55; //如果函数的返回值是引用，这个函数调用可以作为左值
+    cout << c <<endl;
     cout << c <<endl;
 }
-
-//output:
-//10 12313 10 10 10 
