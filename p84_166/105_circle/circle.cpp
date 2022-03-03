@@ -6,7 +6,7 @@ void Circle::setCircleCenter(Point p)
 {
     m_center = p;
 }
-Point getCircleCenter()
+Point Circle::getCircleCenter()
 {
     return m_center;
 }

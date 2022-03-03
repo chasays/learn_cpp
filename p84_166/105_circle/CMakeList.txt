@@ -4,4 +4,5 @@ cmake_minimum_required( VERSION 3.19.2 )
 project( Circle )
 # 添加一个可执行程序
 # 语法： add_executable( 自定义程序名 源代码文件 ）
-add_executable( Circle main.cpp )
+add_executable( circle main.cpp point.cpp circle.cpp)
+
