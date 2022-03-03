@@ -2,9 +2,9 @@
 
 void isInside(Circle &c, Point &p)
 {
-    rDistance = (c.getCircleCenter.getX() - p.getX) * (c.getCircleCenter.getX() - p.getX) + 
-    (c.getCircleCenter.getY() - p.getY()) * (c.getCircleCenter.getY() - p.getY())
-    r_circle = c.getR() * c.getR();
+    int rDistance = (c.getCircleCenter().getX() - p.getX()) * (c.getCircleCenter().getX() - p.getX()) + 
+    (c.getCircleCenter().getY() - p.getY()) * (c.getCircleCenter().getY() - p.getY());
+    int r_circle = c.getR() * c.getR();
 
     if (rDistance > r_circle)
     {

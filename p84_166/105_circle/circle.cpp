@@ -2,7 +2,7 @@
 #include "circle.h"
 
 
-void setCircleCenter(Point p)
+void Circle::setCircleCenter(Point p)
 {
     m_center = p;
 }
@@ -10,11 +10,11 @@ Point getCircleCenter()
 {
     return m_center;
 }
-void setR(int r)
+void Circle::setR(int r)
 {
     m_R = r;
 }
-int getR()
+int Circle::getR()
 {
     return m_R;
 }

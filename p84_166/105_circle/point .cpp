@@ -1,18 +1,18 @@
 #include "point.h"
 
-void setX(int x)
+void Point::setX(int x)
 {
     m_X = x;
 }
-int getX()
+int Point::getX()
 {
     return m_X;
 }
-void setY(int y)
+void Point::setY(int y)
 {
     m_Y = y;
 }
-int getY()
+int Point::getY()
 {
     return m_Y;
 }

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Circle
+class Circle
 {
 public:
     void setCircleCenter(Point p);
