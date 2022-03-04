@@ -28,6 +28,7 @@ int main()
     p.setX(10);
     p.setY(0);
     c1.setCircleCenter(p);
+    c.setR(10);
 
     Point p1;
     p1.setX(10);
