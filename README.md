@@ -1,5 +1,8 @@
 # 黑马程序员C++，课程源代码，学习记录
 
+这里有[完整的讲义和源代码](https://github.com/AnkerLeng/Cpp-0-1-Resource)
+
+
 学习[黑马程序的C++课程记录](https://www.bilibili.com/video/BV1et411b73Z) ，
 以及部分源代码。
 
@@ -33,6 +36,11 @@ Thread model: posix
 - [x] 练习
 
 ## 实战练习 ：通讯录
+
+
+## 交流群
+
+微信二维码会过期，欢迎加我个人微信：xiaorik，一起交流~
 
 
 
