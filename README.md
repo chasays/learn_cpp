@@ -3,6 +3,18 @@
 学习[黑马程序的C++课程记录](https://www.bilibili.com/video/BV1et411b73Z) ，
 以及部分源代码。
 
+## 环境
+
+- g++
+```
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+```
+编译命令：
+`g++ xxx.cpp; ./a.out`
+
+查看结果是否符合预期。
 
 ## 基础
 - [x] 定义一个常量
