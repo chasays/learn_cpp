@@ -14,6 +14,12 @@ Apple clang version 12.0.0 (clang-1200.0.32.29)
 Target: x86_64-apple-darwin20.6.0
 Thread model: posix
 ```
+- clang++ 同样一样的可以
+```
+clang++ 115_this.cpp
+./a.out
+```
+
 编译命令：
 `g++ xxx.cpp; ./a.out`
 
